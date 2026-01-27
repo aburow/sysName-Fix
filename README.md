@@ -1,6 +1,6 @@
 This app has been written to deal with issues that turn up mainly in some security cameras and rPDU's that I have.
 
-In some units the config does appear to be written into flash but us not read back after reboot. Other devices never write the SNMP settings back into flash.
+In some units the config does appear to be written into flash but is not read back after reboot. Other devices never write the SNMP settings back into flash.
 
 In order to prevent causing longer term flash issues this program reads the current snmp sysName.0 and checks it against the name in sysname_fix.conf.
 
